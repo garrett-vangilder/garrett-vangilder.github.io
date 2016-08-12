@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Garrett Vangilder, a Website</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <h1>welcome to a website.</h1>
-  <script type="text/javascript" src="scripts.js"></script>
-</body>
-</html>
+  <head>
+    <title>Garrett Vangilder, a Website</title>
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header ">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="#">garrett-vangilder.io</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="aboutButton"><a href="#">About</a></li>
+              <li class="portfolioButton"><a href="#">Portfolio</a></li>
+              <li class="contactButton"><a href="#">Contact Information</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://github.com/garrett-vangilder">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/garrett-vangilder-1769a797">LinkedIn</a></li>
+                  <li><a href="https://twitter.com/Garrett_Vangild">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          <!-- Landing Page -->
+          <div id="landingPage">
+            <div class="mainContent">
+              <h2>Thank you...</h2>
+            </div>
+            <div class="secondaryContent">
+            </div>
+          </div>
+          <!-- About -->
+          <div id="aboutPage" class="hide">
+            <div class="mainContent">
+              <h2>About Page</h2>
+            </div>
+            <div class="secondaryContent">
+            </div>
+          </div>
+          <!-- Portfolio -->
+          <div id="portfolioPage" class="hide">
+            <div class="mainContent">
+              <h2>Portfolio Page</h2>
+            </div>
+            <div class="secondaryContent">
+            </div>
+          </div>
+          <!-- contact information page -->
+          <div id="contactInformationPage" class="hide">
+            <div class="mainContent">
+              <h2>Contact Information Page</h2>
+            </div>
+            <div class="secondaryContent">
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+        </footer>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+      </body>
+    </html>

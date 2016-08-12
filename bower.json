@@ -1,0 +1,17 @@
+{
+  "name": "garrett-vangilder.github.io",
+  "homepage": "https://github.com/garrett-vangilder/garrett-vangilder.github.io",
+  "authors": [
+    "Garrett Vangilder <garrett.vangilder@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
