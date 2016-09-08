@@ -10,3 +10,12 @@ padding-top: 60px;
 .hide {
   display: none;
 }
+
+.annieContent {
+  text-align: center;
+  font-size: 150%;
+}
+
+.bold {
+  font-weight: 900;
+}

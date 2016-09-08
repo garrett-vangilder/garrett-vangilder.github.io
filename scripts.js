@@ -16,4 +16,10 @@ $('.contactButton').on('click', function() {
   console.log('contact was clicked')
 })
 
+  $(".annieButton").on("click", function() {
+    $(".annieButton").hide();
+    $(".annieContent").removeClass('hidden');
+    console.log("Annie's Button")
+  })
+
 })
