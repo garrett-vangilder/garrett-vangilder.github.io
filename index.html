@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="Profile">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Garrett Vangilder, a Web Developer</title>
+        <link rel="stylesheet" type="text/css" href="lib/bower_components/materialize/dist/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+
+                <div class="col s4">
+                    <img class="responsive-img" src="images/websiteImage.jpg" alt="garrettVangilder"/>
+                    <div class="">
+                      <h5>Email</h5>
+                      <h5>LinkedIn</h5>
+                      <h5>Twitter</h5>
+                      <h5>Github</h5>
+                    </div>
+                </div>
+                <div class="col s8">
+                    <div ng-include="'partials/navbar.html'"></div>
+                    <div>
+                        <ng-view></ng-view>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+
+        <!-- LIB -->
+        <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
+
+        <!-- APP SPECIFIC -->
+
+        <script type="text/javascript" src="app/app.js"></script>
+
+        <!-- CONTROLLERS -->
+        <script type="text/javascript" src="app/controllers/NavBarCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/AboutCtrl.js"></script>
+
+    </body>
+</html>
