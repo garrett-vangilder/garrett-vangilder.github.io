@@ -11,7 +11,7 @@ app.config(function($routeProvider) {
   }).
   when("/projects", {
     templateUrl: "partials/projects.html",
-    controller: "ProjectsCtrl"
+    controller: "ProjectCtrl"
   }).
   when("/resume", {
     templateUrl: "partials/resume.html",
