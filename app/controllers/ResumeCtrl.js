@@ -1,2 +1,1 @@
-app.controller("ResumeCtrl", function($scope, $location, $window, $routeParams, $route) {
-});
+app.controller("ResumeCtrl", function($scope, $location, $window, $routeParams, $route) {});
