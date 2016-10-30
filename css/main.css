@@ -1,14 +1,15 @@
 body {
-  font-family: 'Dosis', sans-serif;
-}
-.mainContent {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Dosis', sans-serif; }
 
-}
+.mainContent {
+  font-family: 'Raleway', sans-serif; }
 
 .roundedImage {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px; }
+
+.name {
+  margin-left: 15px; }
 
 /*# sourceMappingURL=main.css.map */
