@@ -9,7 +9,8 @@ body {
   -moz-border-radius: 20px;
   border-radius: 20px; }
 
-.name {
-  margin-left: 15px; }
+@media (min-width: 600px) {
+  .name {
+    margin-left: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
