@@ -1,6 +1,6 @@
 "use strict"
 
-var app = angular.module("Profile", ["ngRoute"])
+var app = angular.module("Profile", ["ngRoute", "ngMaterial"])
 
 
 app.config(function($routeProvider) {
