@@ -25,8 +25,10 @@
                 </div>
                 <div class="col m8 s12">
                     <div ng-include="'partials/navbar.html'"></div>
-                    <div class="mainContent">
-                        <ng-view></ng-view>
+                    <div ng-controller="MobileNavCtrl">
+                        <div class="mainContent">
+                            <ng-view></ng-view>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,18 +39,22 @@
         <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
         <script type="text/javascript" src="lib/bower_components/angular-route/angular-route.min.js"></script>
+        <script src="lib/bower_components/angular-aria/angular-aria.js"></script>
+        <script src="lib/bower_components/angular-animate/angular-animate.js"></script>
+        <script src="lib/bower_components/angular-material/angular-material.js"></script>
+
         
         <!--GOOGLE ANALYTICS-->
         <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-86510790-1', 'auto');
-  ga('send', 'pageview');
+            ga('create', 'UA-86510790-1', 'auto');
+            ga('send', 'pageview');
 
-</script>
+        </script>
 
         <!-- APP SPECIFIC -->
 
@@ -56,9 +62,11 @@
 
         <!-- CONTROLLERS -->
         <script type="text/javascript" src="app/controllers/NavBarCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/MobileNavCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/AboutCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/ProjectCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/ResumeCtrl.js"></script>
+
 
     </body>
 </html>
