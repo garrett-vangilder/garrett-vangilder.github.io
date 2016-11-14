@@ -5,6 +5,11 @@ body {
   color: #333333;
 }
 
+h1 {
+    font-family: 'Dosis', sans-serif;
+
+}
+
 .mainContent {
   font-family: 'Raleway', sans-serif;
 
@@ -30,7 +35,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 600;
@@ -58,7 +63,7 @@ body {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #005A9C
   }
   .navbar-custom .nav li a {
     color: black;
@@ -66,7 +71,7 @@ body {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #005A9C
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -111,7 +116,6 @@ body {
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 }

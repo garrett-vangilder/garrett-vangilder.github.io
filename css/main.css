@@ -3,6 +3,9 @@ body {
   font-size: 20px;
   color: #333333; }
 
+h1 {
+  font-family: 'Dosis', sans-serif; }
+
 .mainContent {
   font-family: 'Raleway', sans-serif; }
 
@@ -14,18 +17,13 @@ body {
 @media (min-width: 600px) {
   .name {
     margin-left: 15px; } }
-body {
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px;
-  color: #333333; }
-
 .navbar-custom {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Dosis', sans-serif; }
 
 .navbar-custom .navbar-brand {
   font-weight: 600; }
@@ -53,7 +51,7 @@ body {
 
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8); }
+    color: #005A9C; }
 
   .navbar-custom .nav li a {
     color: black;
@@ -61,7 +59,7 @@ body {
 
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8); } }
+    color: #005A9C; } }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
@@ -71,7 +69,6 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
@@ -105,7 +102,6 @@ body {
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0); } }
 .intro-header {
   background-color: #777777;
@@ -114,7 +110,6 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
   margin-bottom: 50px; }
 
 .intro-header .site-heading,
@@ -143,7 +138,7 @@ body {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 300;
   margin: 10px 0 0; }
 
@@ -161,13 +156,13 @@ body {
   display: block; }
 
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 400; }
 
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Dosis', sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px; }
