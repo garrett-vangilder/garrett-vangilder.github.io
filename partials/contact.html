@@ -1,23 +1,18 @@
-				<form class="center-block" action="https://formspree.io/garrett.vangilder@gmail.com" method="POST">
-					<div class="container center-block">
-						<div class="row">
-							<div class="col-md-6">
-								<input name="name" placeholder="Name" type="text" />
-							</div>
-							<div class="col-md-6">
-								<input name="email" placeholder="Email" type="email" />
-							</div>
-							<div class="col-md-12">
-								<textarea name="message" placeholder="Message" rows="4"></textarea>
-							</div>
-						</div>
-					</div>
-					<ul class="actions">
-						<li>
-							<input type="submit" class="special" value="Submit" />
-						</li>
-						<li>
-							<input type="reset" class="alt" value="Reset" />
-						</li>
-					</ul>
-				</form>
+<form action="https://formspree.io/garrett.vangilder@gmail.com" method="POST">
+	<div class="form-group row">
+		<div class="col-md-5">
+			<label for="name">Name: </label>
+			<input placeholder="Great Person" name="name" type="text" />
+		</div>
+		<div class="col-md-5 col-md-offset-2">
+
+			<label for="email">Email address: </label>
+			<input placeholder="email@email.com" name="email" type="email" />
+		</div>
+	</div>
+	<br>
+
+	<textarea class="form-control" rows="3" placeholder="Lets work together..."></textarea>
+	<br>
+	<input type="submit" class="special btn btn-default center-block" value="Submit" />
+</form>
