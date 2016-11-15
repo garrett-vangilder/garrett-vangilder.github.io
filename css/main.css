@@ -29,7 +29,10 @@ h1 {
   margin-bottom: 3em; }
 
 .mainContent {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Helvetica Neue', sans-serif; }
+
+.contactMe {
+  font-family: 'Helvetica Neue', sans-serif; }
 
 .roundedImage {
   -webkit-border-radius: 20px;
