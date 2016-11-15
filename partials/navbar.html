@@ -1,12 +1,31 @@
-<nav class="black-text" ng-controller="NavBarCtrl">
-  <div class="nav-wrapper #ffffff white">
-    <a href="/#/" class="brand-logo black-text name">Garrett Vangilder</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
-      <li ng-class="{active:isActive('/')} "><a class="black-text" ng-href="/#/">About</a></li>
-      <li ng-class="{active:isActive('/projects')}"><a class="black-text" ng-href="/#/projects">Projects</a></li>
-      <li ng-class="{active:isActive('/resume')}"><a class="black-text" ng-href="/#/resume">Resume</a></li>
-    </ul>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+      <a class="navbar-brand" ng-href="#/about">Garrett Vangilder</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a ng-href="#/about">About</a>
+        </li>
+        <li>
+          <a ng-href="#/projects">Projects</a>
+        </li>
+        <li>
+          <a ng-href="#/technologies">Technologies</a>
+        </li>
+        <li>
+          <a ng-href="#/resume">Resume</a>
+        </li>
+        <!--<li>
+          <a ng-href="#/contact">Contact</a>
+        </li>-->
+      </ul>
+    </div>
   </div>
 </nav>
-
-

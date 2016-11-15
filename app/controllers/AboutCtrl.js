@@ -1,3 +1,1 @@
-app.controller("AboutCtrl", function($scope, $location, $window, $routeParams) {
-
-});
+app.controller("AboutCtrl", function($scope, $location, $window, $routeParams) {});
