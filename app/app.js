@@ -20,6 +20,10 @@ app.config(function ($routeProvider) {
     when("/contact", {
       templateUrl: "partials/contact.html",
       controller: "ContactCtrl"
+    }).
+    when("/technologies", {
+      templateUrl: "partials/technologies.html",
+      controller: "TechnologiesCtrl"
     })
     .otherwise("/")
 })

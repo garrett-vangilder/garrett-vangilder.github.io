@@ -5,17 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Garrett Vangilder</title>
         <link rel="stylesheet" type="text/css" href="/lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="/lib/bower_components/devicon/devicon.css">
+
         <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
         <div ng-include="'partials/navbar.html'"></div>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
     <header class="intro-header" style="background-image: 
-    url('images/websiteImage.jpg');">
+    url('images/window_picture.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-md-offset-1">
@@ -28,31 +27,10 @@
             </div>
         </div>
     </header>
-    <ng-view></ng-view>
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
 
-
-            <!--<div class="row">
-
-                <div class="col m4 s12">
-                    <img class="responsive-img roundedImage" src="images/websiteImage.jpg" alt="garrettVangilder"/>
-                    <div class="contactInfo row">
-                    <h5 class="center">Contact Information:</h5>
-                      <a href='mailto:garrett.vangilder@gmail.com'><img class="responsive-img col s3" src="images/gmailIcon.png" alt="linkedIn"/></a>
-                        <a href='https://www.linkedin.com/in/garrett-vangilder-1769a797'><img class="responsive-img col s3" src="images/In-2C-108px-R.png" alt="linkedIn"/></a>
-                        <a href='https://github.com/garrett-vangilder'><img class="responsive-img col s3" src="/images/svg_icons/github.svg" alt="githublink"/></a>
-                        <a href='https://twitter.com/Garrett_Vangild'><img class="responsive-img col s3" src="images/Twitter_Logo_White_On_Image.png" alt="twitterlink"/></a>
-                    </div>
-                </div>
-                <div class="col m8 s12">
-                    <div ng-include="'partials/navbar.html'"></div>
-                    <div ng-controller="MobileNavCtrl">
-                        <div class="mainContent">
-                            <ng-view></ng-view>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row"></div>-->
 
 
         <!-- LIB -->
@@ -83,11 +61,11 @@
 
         <!-- CONTROLLERS -->
         <script type="text/javascript" src="app/controllers/NavBarCtrl.js"></script>
-        <script type="text/javascript" src="app/controllers/MobileNavCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/AboutCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/ProjectCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/ResumeCtrl.js"></script>
         <script type="text/javascript" src="app/controllers/ContactCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/TechnologiesCtrl.js"></script>
 
 
     </body>
