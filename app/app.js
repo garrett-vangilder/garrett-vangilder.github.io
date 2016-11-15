@@ -3,19 +3,23 @@
 var app = angular.module("Profile", ["ngRoute", "ngMaterial"])
 
 
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
   $routeProvider.
-  when("/", {
-    templateUrl: "partials/about.html",
-    controller: "AboutCtrl"
-  }).
-  when("/projects", {
-    templateUrl: "partials/projects.html",
-    controller: "ProjectCtrl"
-  }).
-  when("/resume", {
-    templateUrl: "partials/resume.html",
-    controller: "ResumeCtrl"
-  })
-  .otherwise("/")
+    when("/", {
+      templateUrl: "partials/about.html",
+      controller: "AboutCtrl"
+    }).
+    when("/projects", {
+      templateUrl: "partials/projects.html",
+      controller: "ProjectCtrl"
+    }).
+    when("/resume", {
+      templateUrl: "partials/resume.html",
+      controller: "ResumeCtrl"
+    }).
+    when("/contact", {
+      templateUrl: "partials/contact.html",
+      controller: "ContactCtrl"
+    })
+    .otherwise("/")
 })

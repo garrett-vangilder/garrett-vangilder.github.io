@@ -1,10 +1,26 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
   color: #333333; }
 
+.name {
+  animation-name: lsd;
+  animation-duration: 60s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes lsd {
+  0% {
+    color: #81d4fa; }
+  33% {
+    color: #ffd54f; }
+  66% {
+    color: #4db6ac; }
+  100% {
+    color: #ef9a9a; } }
 h1 {
-  font-family: 'Dosis', sans-serif; }
+  font-family: 'Helvetica Neue', sans-serif; }
 
 .mainContent {
   font-family: 'Raleway', sans-serif; }
@@ -29,7 +45,7 @@ h1 {
   font-weight: 600; }
 
 .navbar-custom .navbar-header .navbar-toggle {
-  color: #777777;
+  color: #005A9C;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 12px; }
@@ -77,21 +93,21 @@ h1 {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid #f2f2f2;
+    background-color: #9c4200;
+    border-bottom: 1px solid #005A9C;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s; }
 
   .navbar-custom.is-fixed .navbar-brand {
-    color: #333333; }
+    color: #005A9C; }
 
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085A1; }
 
   .navbar-custom.is-fixed .nav li a {
-    color: #333333; }
+    color: #005A9C; }
 
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -104,8 +120,8 @@ h1 {
     -ms-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0); } }
 .intro-header {
-  background-color: #777777;
-  background: no-repeat center center;
+  background-color: Complement(#005A9C);
+  background: no-repeat 80% 20%;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -168,6 +184,6 @@ h1 {
   font-size: 20px; }
 
 .intro-header .post-heading .meta a {
-  color: white; }
+  color: #005A9C; }
 
 /*# sourceMappingURL=main.css.map */
