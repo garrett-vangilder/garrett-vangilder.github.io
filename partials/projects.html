@@ -1,8 +1,45 @@
-<div class="jumbotron text-center">
-    <div class="row">
-        <h1>Roomies</h1>
+<div class="jumbotron">
+  <div class="row">
+    <h1 class="text-center">Roomies</h1>
+  </div>
+  <div>
+    <div class="text-center">
+      This application is used to facilitate interactions between housemates. Roomies is built using the AngularJS framework. This
+      application's database implements a NoSQL database through Firebase. Users are able to organize shopping trips, bill
+      payments, chores, as well as chat with one another.
     </div>
-  <p>This application is used to facilitate interactions between housemates. Roomies is built using the AngularJS framework as well as the NoSQL Firebase database. Users are able to organize shopping trips, bill payments, chores, as well as chat with one another. </p>
+    &nbsp
+    <div>
+      <h3>Technologies Used</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Vanila JavaScript</li>
+        <li>AngularJS 1.x</li>
+        <li>Grunt</li>
+        <li>Firebase</li>
+        <li>Github and Git</li>
+      </ul>
+    </div>
+    <h3>Problems Encountered</h3>
+    <div>
+      <p>While desigining the app, I originally did not realize the complex database structure that was required. In fact, I
+        originally had very little experience using databases at all. I quickly realized that a flat database structure was
+        essential to the performance of the application, because Firebase does not allow for relationships between database
+        entities. That being said, I began to attach a unique primary key to each "household" then assign that key to most
+        items in the database, this ensured that items for each house was easily found through querrying the database and
+        searching for that specific foreign key. This repeated foreign key did make things difficult as users not only have
+        a "house ID" assigned to them, they also have a unique "user ID". I found that sometimes I would querry the database
+        for the improper key, as well as apply the wrong foreign key to a new instance of an object, pushing these objects
+        into a strange database limbo, this was quickly fixed.</p>
+
+      <p>I found that there are some limitations when using firebase due to the none relational design of the database. However,
+        the easy setup of the project made firebase valuable to the overall project. In the future I look forward to using
+        other nonSQL databases. </p>
+    </div>
+    &nbsp &nbsp
+
+  </div>
   <div class="center-block row">
     <p><a class="btn btn-primary btn-lg center-block " href="https://roomies-39f08.firebaseapp.com/#/" role="button">Link</a></p>
     <p><a class="btn btn-primary btn-lg center-block" href="https://github.com/garrett-vangilder/roomies" role="button">Source Code</a></p>
@@ -10,9 +47,13 @@
 </div>
 
 <div class="jumbotron text-center">
-    <div class="row">
-        <h1>Initial Bangazon Site</h1>
-    </div>  <p>Bangazon is a three month long group project that lasted from the end of September 2016 till mid-December 2016. During this time several applications were created for an "Amazon" like company, Bangazon. These apps include several ASP.NET MVC applications that allow for end users to purchase and sell products, as well as an MVC application that allows for Bangazon management to perform management tasks and document employee incidents. </p>
+  <div class="row">
+    <h1>Initial Bangazon Site</h1>
+  </div>
+  <p>Bangazon is a three month long group project that lasted from the end of September 2016 till mid-December 2016. During
+    this time several applications were created for an "Amazon" like company, Bangazon. These apps include several ASP.NET
+    MVC applications that allow for end users to purchase and sell products, as well as an MVC application that allows for
+    Bangazon management to perform management tasks and document employee incidents. </p>
   <div class="center-block row">
     <p><a class="btn btn-primary btn-lg center-block" href="https://github.com/TeamCharles/initial-site" role="button">Source Code</a></p>
   </div>
