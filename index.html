@@ -8,21 +8,23 @@
     <link rel="shortcut icon" href="images/gv.ico" type="image/x-icon">
     <link rel="icon" href="images/gv.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/bower_components/devicon/devicon.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
+    <!-- HEADER / NAV -->
     <div ng-include="'partials/navbar.html'"></div>
-
     <header class="intro-header" style="background-image: 
     url('images/window_picture.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1 class="name">Garrett Vangilder, a Web Developer</h1>
+                        <h1 class="name">Garrett Vangilder<br/>Software Developer</h1>
                         <hr class="small">
                     </div>
                 </div>
@@ -30,8 +32,21 @@
         </div>
     </header>
 
+    <!-- CONTENT -->
     <div class="container mainContent">
         <ng-view></ng-view>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+        <hr>
+        <div class="text-center center-block">
+            <a href="https://www.linkedin.com/in/garrett-vangilder-1769a797/"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+            <a href="https://twitter.com/garrett_vangild"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://github.com/garrett-vangilder"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
+            <a href="mailto:garrett.vangilder@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+        <hr>
     </div>
 
     <!-- LIB -->
@@ -64,7 +79,7 @@
     <script type="text/javascript" src="app/controllers/NavBarCtrl.js"></script>
     <script type="text/javascript" src="app/controllers/AboutCtrl.js"></script>
     <script type="text/javascript" src="app/controllers/ProjectCtrl.js"></script>
-    <script type="text/javascript" src="app/controllers/ResumeCtrl.js"></script>
+    <script type="text/javascript" src="app/controllers/ExperienceCtrl.js"></script>
     <script type="text/javascript" src="app/controllers/ContactCtrl.js"></script>
     <script type="text/javascript" src="app/controllers/TechnologiesCtrl.js"></script>
 

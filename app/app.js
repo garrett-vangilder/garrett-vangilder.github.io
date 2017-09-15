@@ -14,10 +14,6 @@ app.config(function ($routeProvider) {
       templateUrl: "partials/projects.html",
       controller: "ProjectCtrl"
     }).
-    when("/resume", {
-      templateUrl: "partials/resume.html",
-      controller: "ResumeCtrl"
-    }).
     when("/contact", {
       templateUrl: "partials/contact.html",
       controller: "ContactCtrl"
@@ -25,6 +21,10 @@ app.config(function ($routeProvider) {
     when("/technologies", {
       templateUrl: "partials/technologies.html",
       controller: "TechnologiesCtrl"
+    }).
+    when("/experience", {
+      templateUrl: "partials/experience.html",
+      controller: "ExperienceCtrl"
     })
     .otherwise("/")
 })

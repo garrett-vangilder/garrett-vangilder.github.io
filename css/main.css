@@ -1,9 +1,17 @@
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   color: #333333; }
 
+.jumbotron p {
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 900; }
+
 .name {
+  font-family: 'Space Mono', monospace !important;
   animation-name: lsd;
   animation-duration: 60s;
   animation-timing-function: ease-in-out;
@@ -19,20 +27,11 @@ body {
     color: #4db6ac; }
   100% {
     color: #ef9a9a; } }
-h1 {
-  font-family: 'Helvetica Neue', sans-serif; }
-
 .tech img {
   width: 5em;
   height: 5em;
   margin: 0 auto;
   margin-bottom: 3em; }
-
-.mainContent {
-  font-family: 'Helvetica Neue', sans-serif; }
-
-.contactMe {
-  font-family: 'Helvetica Neue', sans-serif; }
 
 .roundedImage {
   -webkit-border-radius: 20px;
@@ -47,8 +46,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
-  font-family: 'Dosis', sans-serif; }
+  z-index: 3; }
 
 .navbar-custom .navbar-brand {
   font-weight: 600; }
@@ -57,9 +55,11 @@ h1 {
   color: #005A9C;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 12px; }
+  font-size: 12px;
+  font-family: 'Space Mono', monospace; }
 
 .navbar-custom .nav li a {
+  font-family: 'Space Mono', monospace;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
@@ -163,7 +163,6 @@ h1 {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Dosis', sans-serif;
   font-weight: 300;
   margin: 10px 0 0; }
 
@@ -181,18 +180,100 @@ h1 {
   display: block; }
 
 .intro-header .post-heading .subheading {
-  font-family: 'Dosis', sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 400; }
 
 .intro-header .post-heading .meta {
-  font-family: 'Dosis', sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px; }
 
 .intro-header .post-heading .meta a {
   color: #005A9C; }
+
+.experience {
+  align-content: center;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .experience .experience-content {
+    padding: 90px 110px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    background-size: cover; }
+    @media only screen and (max-width: 500px) {
+      .experience .experience-content {
+        padding: 0; } }
+  .experience .sdc {
+    background-color: #35c4d3; }
+  .experience .nss {
+    background-color: tomato;
+    border: tomato; }
+  .experience .experience-title a {
+    font-size: 42px;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: none;
+    transition: all .2s ease-in-out; }
+    @media only screen and (max-width: 500px) {
+      .experience .experience-title a {
+        font-size: 26px; } }
+  .experience .experience-title a:hover {
+    transform: scale(1.1); }
+  .experience .experience-position {
+    color: black;
+    margin-bottom: 45px;
+    font-size: 24px; }
+  .experience .experience-tech h4 {
+    font-size: 20px; }
+  .experience .experience-tech .experience-tech-list {
+    list-style: none; }
+  .experience .experience-resume {
+    font-weight: 700; }
+    .experience .experience-resume li {
+      margin-bottom: 15px; }
+
+.contact {
+  display: flex; }
+  .contact .contact-card {
+    font-family: 'Space Mono', monospace;
+    margin: 80px auto;
+    background-color: rgba(238, 238, 238, 0.88);
+    padding: 60px; }
+    @media only screen and (max-width: 768px) {
+      .contact .contact-card {
+        padding: 35px; } }
+  .contact .contact-card-content {
+    margin-top: 20px; }
+
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1); }
+
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s; }
+
+/*
+    Multicoloured Hover Variations
+*/
+#social-li:hover {
+  color: #3B5998; }
+
+#social-tw:hover {
+  color: #4099FF; }
+
+#social-gh:hover {
+  color: #000; }
+
+#social-em:hover {
+  color: #f39c12; }
 
 /*# sourceMappingURL=main.css.map */
