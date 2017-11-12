@@ -13,20 +13,20 @@ h1, h2, h3, h4, h5, h6 {
 .name {
   font-family: 'Space Mono', monospace !important;
   animation-name: lsd;
-  animation-duration: 60s;
+  animation-duration: 30s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate; }
 
 @keyframes lsd {
   0% {
-    color: #81d4fa; }
+    color: #51cbff; }
   33% {
-    color: #ffd54f; }
+    color: #f8c734; }
   66% {
-    color: #4db6ac; }
+    color: #37aca0; }
   100% {
-    color: #ef9a9a; } }
+    color: #d87373; } }
 .tech img {
   width: 5em;
   height: 5em;
@@ -80,11 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar-custom .nav li a {
     color: azure;
-    padding: 20px; }
-
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
-    color: #005A9C; } }
+    padding: 20px; } }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
@@ -135,7 +131,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  opacity: 0.8; }
 
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -207,6 +204,12 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0; } }
   .experience .sdc {
     background-color: #35c4d3; }
+  .experience .lp {
+    background-color: #011c56;
+    color: #37be9e; }
+    .experience .lp .experience-title a,
+    .experience .lp .experience-position {
+      color: #37be9e !important; }
   .experience .nss {
     background-color: tomato;
     border: tomato; }
