@@ -17,17 +17,17 @@ h1, h2, h3, h4, h5, h6 {
 .name {
   font-family: 'Space Mono', monospace !important;
   animation-name: lsd;
-  animation-duration: 60s;
+  animation-duration: 30s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
 @keyframes lsd {
-    0% { color: #81d4fa }
-    33% { color: #ffd54f }
-    66% { color: #4db6ac }
-    100% { color: #ef9a9a }    
+  0% { color: #51cbff }
+  33% { color: #f8c734 }
+  66% { color: #37aca0 }
+  100% { color: #d87373 }    
 }
 
 .tech img {
@@ -91,10 +91,6 @@ h1, h2, h3, h4, h5, h6 {
     color: azure;
     padding: 20px;
   }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
-    color: #005A9C
-  }
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
@@ -149,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-background-size: cover;
   background-size: cover;
   margin-bottom: 50px;
+  opacity: 0.8;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -229,6 +226,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   .sdc {
     background-color: #35c4d3
+  }
+  .lp {
+    background-color: #011c56;
+    color: #37be9e;
+    .experience-title a,
+    .experience-position {
+      color: #37be9e !important;
+    }
   }
   .nss {
     background-color: tomato;
